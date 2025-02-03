@@ -9,4 +9,4 @@ Email address regext pattern taken from here:
 
 ## Usage
 
-Place urls to scan in `urls.txt` then run `./scrape-emails-from-page.sh`. Email addresses are output to terminal.
+Place urls to scan in a file called `urls.txt` then run `./scrape-from-page.sh`. Email addresses are output to terminal.
