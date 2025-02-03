@@ -4,7 +4,8 @@ Extract email addresses from a web page.
 
 ## Regex
 
-Email address pattern here <https://stackoverflow.com/questions/201323/how-can-i-validate-an-email-address-using-a-regular-expression>
+Email address regext pattern taken from here:  
+<https://stackoverflow.com/questions/201323/how-can-i-validate-an-email-address-using-a-regular-expression>
 
 ## Usage
 
