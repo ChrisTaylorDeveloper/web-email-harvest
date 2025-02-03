@@ -8,6 +8,4 @@ Email address pattern here <https://stackoverflow.com/questions/201323/how-can-i
 
 ## Usage
 
-```
-./scrape-emails-from-page.sh <url of page containing email addresses>
-```
+Place urls to scan in `urls.txt` then run `./scrape-emails-from-page.sh`. Email addresses are out put to terminal.

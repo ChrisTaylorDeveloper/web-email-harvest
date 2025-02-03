@@ -1,3 +1,7 @@
 #!/bin/bash
 
-curl --silent "$1" | grep -Po --file=email-regex.txt | sort | uniq
+while read -r u; do
+    echo ---
+    echo "$u"
+    curl --silent "$u" | grep -Po --file=email-regex.txt | sort | uniq
+done <urls.txt
